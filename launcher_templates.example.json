@@ -1,0 +1,22 @@
+{
+  "templates": {
+    "default": {
+      "name": "default",
+      "agent_type": "claude_code",
+      "command": "claude --prompt \"Work on ticket {ticket_identifier}: {ticket_title}\"",
+      "working_directory": null,
+      "env_vars": {},
+      "prompt_file": null,
+      "worktree_strategy": null
+    },
+    "work-skill": {
+      "name": "work-skill",
+      "agent_type": "claude_code",
+      "command": "claude --prompt \"/work {ticket_identifier}\"",
+      "working_directory": null,
+      "env_vars": {},
+      "prompt_file": null,
+      "worktree_strategy": null
+    }
+  }
+}
