@@ -11,4 +11,3 @@ dist/
 .ruff_cache/
 .pytest_cache/
 .playwright-mcp/
-.claude/
